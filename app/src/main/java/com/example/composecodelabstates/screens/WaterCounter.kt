@@ -16,14 +16,16 @@ import com.example.composecodelabstates.R
 
 @Composable
 fun WaterCounter(modifier: Modifier = Modifier){
-    var count by remember { mutableStateOf(0) }
-    Column(
-        modifier = modifier.padding(16.dp)
-    ) {
-        Text(stringResource(R.string.glasses_counter_label, count))
+    Column(modifier = modifier.padding(16.dp)) {
+        var count by remember { mutableStateOf(0) }
+
+        if(count > 0){
+            Text(stringResource(R.string.glasses_counter_label, count))
+        }
         Button(
             onClick = { count++  },
-            modifier = Modifier.padding(top = 8.dp)
+            modifier = Modifier.padding(top = 8.dp),
+            enabled = count < 10
         ) {
             Text(stringResource(R.string.add_one_button_label))
         }
