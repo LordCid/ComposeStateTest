@@ -2,4 +2,6 @@
     <string name="app_name">ComposeCodeLabStates</string>
     <string name="glasses_counter_label">You\'ve had %1$d glasses</string>
     <string name="add_one_button_label">Add One</string>
+    <string name="icon_close_content_description">Close</string>
+    <string name="clear_water_count">Clear water count</string>
 </resources>
