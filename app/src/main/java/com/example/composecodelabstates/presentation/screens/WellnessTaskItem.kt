@@ -51,7 +51,7 @@ fun WellnessTaskItem(
 }
 
 @Composable
-fun WellnesstaskItem(taskName: String, modifier: Modifier = Modifier){
+fun WellnessTaskItem(taskName: String, modifier: Modifier = Modifier){
     var checkedState by remember { mutableStateOf(false) }
 
     WellnessTaskItem(

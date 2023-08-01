@@ -64,7 +64,7 @@ fun StatefulCounter(modifier: Modifier = Modifier){
     ) {
         val modifier = Modifier.padding(bottom = 8.dp)
         StatelessCounter(count, { count++ }, modifier)
-        StatelessCounter(count, { count *= 2 }, modifier)
+//        StatelessCounter(count, { count *= 2 }, modifier)
     }
 
 }
