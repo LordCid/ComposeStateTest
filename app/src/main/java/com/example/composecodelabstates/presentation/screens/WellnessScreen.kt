@@ -1,4 +1,4 @@
-package com.example.composecodelabstates.screens
+package com.example.composecodelabstates.presentation.screens
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier

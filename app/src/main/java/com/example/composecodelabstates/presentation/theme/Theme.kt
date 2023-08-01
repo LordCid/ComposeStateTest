@@ -1,4 +1,4 @@
-package com.example.composecodelabstates.ui.theme
+package com.example.composecodelabstates.presentation.theme
 
 import android.app.Activity
 import android.os.Build

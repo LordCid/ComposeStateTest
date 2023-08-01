@@ -1,4 +1,4 @@
-package com.example.composecodelabstates.ui.theme
+package com.example.composecodelabstates.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

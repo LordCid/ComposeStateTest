@@ -1,4 +1,4 @@
-package com.example.composecodelabstates.ui.theme
+package com.example.composecodelabstates.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
