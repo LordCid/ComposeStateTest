@@ -59,13 +59,13 @@ fun StatelessCounter(
 fun StatefulCounter(modifier: Modifier = Modifier){
     var count by remember { mutableStateOf(0) }
 
-    Column(
-        modifier = Modifier.padding(start = 8.dp),
-    ) {
+//    Column(
+//        modifier = Modifier.padding(start = 8.dp),
+//    ) {
         val modifier = Modifier.padding(bottom = 8.dp)
         StatelessCounter(count, { count++ }, modifier)
 //        StatelessCounter(count, { count *= 2 }, modifier)
-    }
+//    }
 
 }
 
